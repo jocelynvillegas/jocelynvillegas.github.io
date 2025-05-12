@@ -1,0 +1,440 @@
+/* reset overall layout for all pages */
+
+/* make cloud backround peek through on top and bottom instead of sides */
+body {
+   background-size: 40%;
+   font-size: 70%;
+   padding: 0;
+   margin-top: 10%;
+   margin-right: 0;
+   margin-left: 0;
+   margin-bottom: 10%;
+ }
+ 
+ .wrapper {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+ }
+
+ header img {
+   margin: auto;
+   display: block;
+   width: 50%;
+   padding: 0;
+ }
+
+ header {
+  /* display: flex; */
+  border-bottom: 1px dotted #DD9DA7; 
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 5%;
+ }
+
+/* hide wide nav */
+ nav {
+   display: none;
+ }
+
+.mobile-nav {
+  display: block;
+}
+
+.menu {
+  display: block;
+}
+
+ footer {
+   padding-right: 10%;
+   padding-left: 10%;
+   padding-top: 10%;
+   padding-bottom: 5%;
+ }
+ 
+ img {
+   height: auto;
+ }
+ 
+
+ /* hamburger menu stuff */
+
+  /* styling drop-down menu */
+.mobile-nav label {
+    display: inline-block;
+  }
+
+  #x {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+  
+/* hide the actual checkbox thing */
+#hamburger {
+  display: none;
+}
+
+ /* action toggle function */
+
+ .mobile-nav input:checked ~ .menu {
+	display: block;
+}
+
+.mobile-nav input:checked ~ #burger {
+	display: none;
+}
+
+.mobile-nav input:checked ~ #x {
+	display: block;
+}
+
+
+/* styling menu and icons */
+#burger {
+	color: #BE465A;
+	font-size: 3rem;
+  background-color: rgb(255, 255, 243);
+  border: none;
+  margin: auto;
+  cursor: pointer;
+	outline: none;
+  padding-top: 2%;
+  padding-left: 46%;
+}
+
+#x {
+	color: #BE465A;
+	font-size: 3rem;
+  background-color: rgb(255, 255, 243);
+  border: none;
+  cursor: pointer;
+	outline: none;
+  padding-top: 2%;
+  padding-left: 46%;
+  width: 10%;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu {
+  padding-top: 5%;
+  background-color: rgb(255, 255, 243);
+  text-align: center;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: 2px dotted black;
+
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: medium;
+  color: black;
+} 
+
+.menu ul li .currentpage a {
+  color: #BE465A;
+  margin: 0;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/*about page*/
+
+ .about {
+   flex-direction: column;
+   padding: 5%;
+   text-align: center;
+ }
+ 
+ .about p {
+   padding: 0;
+   text-align: justify;
+ }
+ 
+ .about img {
+   padding: 0;
+   margin: auto;
+   width: 100%;
+ }
+ 
+ .features {
+   flex-direction: column;
+   padding: 5%;
+ }
+ 
+ .features img {
+   width: 80%;
+   margin: auto;
+   padding: 0;
+ }
+ 
+ .features .awards {
+   text-align: left;
+ }
+
+ .awards h1 {
+   text-align: center;
+ }
+ 
+
+ /*commissions page*/
+
+.commissions {
+   padding-left: 5%;
+   padding-right: 5%;
+   margin: auto;
+}
+
+.table {
+   flex-direction: column;
+}
+
+.table h3 {
+   text-align: center;
+}
+
+
+.table .c1 {
+   border-bottom: 2px dotted black;
+   border-right: none;
+   margin: auto;
+}
+
+.table .c3 {
+   border-top: 2px dotted black;
+   border-left: none;
+   margin: auto;
+}
+
+/*contact page*/
+
+/* make decorative phone icon smaller */
+aside img {
+   padding-top: 10%;
+   margin: auto;
+   display: block;
+   width: 50%;
+}
+
+.quote {
+   padding: 5%;
+}
+
+ .quote h1 {
+     font-size: 200%;
+ }
+ 
+ .contact {
+   flex-direction: column;
+   margin: auto;
+ }
+
+ .contact ul {
+   padding-right: 15%;
+ }
+ 
+ .email img{
+   display: block;
+   width: 60%;
+ }
+
+/*cv page*/
+
+/* hide decorative vines for mobile version */
+.CV aside {
+   display: none;
+}
+
+.resumeicon img { 
+   max-width: 100%;
+   height: auto;
+
+ }
+ 
+ .CV h1 {
+     font-size: 250%;
+     text-align: center;
+ }
+ 
+ .resume {
+     text-align: center;
+     margin: auto;
+ }
+ 
+ .CV h3 {
+     text-align: center;
+ }
+
+ .CV {
+   flex-direction: column;
+   padding-left: 1%;
+   padding-right: 1%;
+ }
+
+
+ /*gallery page*/
+
+.galleryrow {
+     flex-direction: column;
+     padding-left: 2%;
+     padding-right: 2%;
+ }
+ 
+ .notice{
+     font-size: x-small;
+     text-align: justify;
+ }
+ 
+
+/*projects page*/
+
+ .projects h1 {
+     padding-top: 2%;
+     padding-bottom: 1%;
+     font-family: "Handjet", monospace, sans-serif;
+     font-size: xx-large;
+ }
+ 
+ .projects h3 {
+     font-family: "Handjet", monospace, sans-serif;
+     font-size:x-large;
+     text-align: center;
+ }
+ 
+ .projects main {
+     justify-content: center;
+     text-align: left;
+     margin: auto;
+ }
+ 
+ .projects .pic1 {
+   justify-content: center;
+   padding-right: 15%;
+ }
+ 
+ .projects .pic2 {
+   justify-content: center;
+   padding-right: 15%;
+ }
+ 
+
+/*index/home page*/
+/* this page requires reformatting of the entire page! */
+
+/*make into stacked columns instead of "circle" layout for mobile */
+.indexrow {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0;
+   padding-left: 18%;
+   padding-right: 10%;
+ }
+ 
+ .indexrow .indexr1,
+ .indexrow .indexr2,
+ .indexrow .indexr3 {
+   padding-top: 5%;
+   padding-bottom: 30%;
+   padding-left: 0;
+   padding-right: 0;
+   width: 100%;
+ }
+
+ .img-container1,
+ .img-container2,
+ .img-container3,
+ .img-container4,
+ .img-container5,
+ .img-container6 {
+   position: relative;
+   margin: 0;
+   width: 100%;
+   padding: 0;
+ }
+ 
+
+ .img-container1 img,
+ .img-container2 img,
+ .img-container3 img,
+ .img-container4 img,
+ .img-container5 img,
+ .img-container6 img {
+   position: absolute;
+   width: 40%;
+   height: auto;
+   padding: 0;
+   border-bottom: 1px dotted #DD9DA7; 
+   margin-left: 5%;
+   margin-right: 5%
+ }
+
+ 
+ .index h1 {
+   font-size: 200%;
+   padding-bottom: 5%;
+   padding-top: 0;
+   padding-left: 0;
+   padding-right: 0;
+ }
+ 
+ .indexrow .indexr2 .logo{
+   padding-left: 0;
+   padding-top: 45%;
+   padding-bottom: 0;
+ }
+
+
+ .indexrow .comm {
+   padding-left: 0;
+ }
+ 
+ .indexrow .indexr3 {
+   margin: auto;
+ }
+
+ .indexrow .indexr1 .img-container1{
+   padding-left: 0;
+ }
+
+
+ .indexrow .indexr1 .img-container6{
+   padding-bottom: 0;
+ }
+
+ .indexrow .indexr1 .img-container6 img {
+   padding-top: 5%;
+ }
+
+ .indexrow .indexr2 .img-container4 { 
+   padding-bottom: 0;
+   padding-top: 0;
+ }
+ 
+ .indexrow .indexr2 .img-container3 {
+   padding-bottom: 0;
+ }
+ 
+ .indexrow .indexr2 .img-container3 h1 {
+   padding-bottom: 5%;
+ }
+
+ .indexrow .indexr3 .comm {
+   padding-top: 25%;
+ }
