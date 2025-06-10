@@ -126,6 +126,10 @@ footer {
         padding-bottom: 10%;
 }
 
+.features .awards a {
+  color: black;
+}
+
 .features h1 {
     font-family: "Handjet", monospace, sans-serif;
     font-size: 200%;
