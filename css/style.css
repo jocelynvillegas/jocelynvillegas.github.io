@@ -376,6 +376,10 @@ footer {
     padding: 1%;
 }
 
+.galleryrow .r0 {
+    margin: auto;
+}
+
 .galleryrow .r1 {
     margin: auto;
 }
