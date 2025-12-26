@@ -2,7 +2,8 @@ body {
     background-image: url(../images/clouds.png);
     background-size: 45%;
     background-repeat: initial;
-    background-color: #E2EDE1; 
+    /* background-color: #E2EDE1;  */
+    background-color: #BBCDDB;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -108,9 +109,13 @@ footer {
 }
 
 .about img {
-    padding-left: 5%;
+  padding-left: 5%;
 }
 
+.about .profile {
+  padding-top: 10%;
+  padding-left: 10%;
+}
 .about #gif {
     margin: auto;
 }
