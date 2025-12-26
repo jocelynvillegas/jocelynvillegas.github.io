@@ -121,8 +121,17 @@ footer {
 }
 
 
-.about .aboutquote p {
-  margin-left: 20%;
+#aboutquote {
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#aboutquote p{
+    font-family: "Handjet", monospace, sans-serif;
+    font-size: x-large;
+    margin: auto;
 }
 
 .features {
