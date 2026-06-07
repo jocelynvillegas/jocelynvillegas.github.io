@@ -549,6 +549,37 @@ footer {
 }
 
 
+.projects .project8 {
+    border-bottom: 1px dotted #DD9DA7; 
+    padding-bottom: 2%;
+    margin: auto;
+}
+
+.projects .pic8 {
+    padding-bottom: 2%;
+}
+
+.projects .pic8 img {
+    border: 2px dotted black; 
+    width: 530px;
+}
+
+
+.projects .project9 {
+    border-bottom: 1px dotted #DD9DA7; 
+    padding-bottom: 2%;
+    margin: auto;
+}
+
+.projects .pic9 {
+    padding-bottom: 2%;
+}
+
+.projects .pic9 img {
+    border: 2px dotted black; 
+    width: 530px;
+}
+
 
 .projects a {
     color: black;
